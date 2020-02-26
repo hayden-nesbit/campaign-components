@@ -2,3 +2,25 @@
 body {
   padding-top: 3.5rem;
 }
+
+.jumbotron {
+  background-image: url("https://media.giphy.com/media/fBGy9GPvF3QwCPQt9f/giphy.gif");
+  background-size: cover;
+  background-repeat: repeat;
+  height: 450px;
+}
+
+h1, h3 {
+  color: white;
+}
+
+i {
+  font-size: 60px;
+  padding: 10px;
+  text-align: center;
+}
+
+#topText {
+  color: white;
+  font-size: 20px;
+}
