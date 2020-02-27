@@ -14,7 +14,7 @@
 
 <body>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand display-3" href="#">Jack Torrance for Constable</a>
+    <a class="navbar-brand display-4" href="#"><span class="text-danger"><b>Jack Torrance</b></span> for Constable</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
       aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -26,15 +26,14 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Campaign Resources</a>
+          <a class="nav-link" href="#bio">Meet Jack</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">Get Involved</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#">Overlook Hotel Renovation</a>
-            <a class="dropdown-item" href="#">Book Writer's Club</a>
-            <a class="dropdown-item" href="#">Hedge Maze Maintenance</a>
+            <a class="dropdown-item" href="#give">Give today</a>
+            <a class="dropdown-item" href="#news">Join the Newsletter</a>
           </div>
         </li>
       </ul>
@@ -49,19 +48,19 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron text-white rounded-0"
-      style="background-image: url('./images/jack-nicholson-the-shining.jpg'); background-size: cover;">
+      style="background-image: url('https://media.giphy.com/media/fBGy9GPvF3QwCPQt9f/giphy.gif'); background-size: cover;">
       <div class="container">
         <div class="row">
           <div class="col-md-8 pt-4">
             <h1 class="display-4">Take your</h1>
             <h1 class="display-4">medicine.</h1>
-            <h1 class="display-1 text-danger">2021</h1>
+            <h1 class="display-1 text-danger">2020</h1>
             
             <p><a class="btn btn-danger btn-lg mt-3" href="#" role="button">Find where to vote! &raquo;</a></p>
           </div>
           <div class="col-md-4">
             <div class="alert alert-warning alert-dismissible fade show mt-5" role="alert">
-              <strong>Election Day is Nov 5th.</strong><br>Register to vote <a href="https://vrsws.sos.ky.gov/ovrweb/"
+              <strong>Election Day is Nov 5th.</strong><br>Register to vote <a href="https://vrsws.sos.ky.gov/ovrweb/" target="_blank"
                 class="alert-link">here</a>
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -134,8 +133,8 @@
         <iframe width="360" height="315" src="https://www.youtube.com/embed/5Cb3ik6zP2I?start=35" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="col-md-6 col-sm-12">
-        <h1>Jack's Story.</h1>
-        <p>bio blurb</p>
+        <h1 id="bio">Jack's Story.</h1>
+        <p>Jack is a writer and former teacher whose alcoholism and volatile temper costs him his teaching position when he assaults a student he catches vandalizing his car. Later, his drinking nearly ends his marriage to his wife, Wendy, after he breaks his son Danny’s arm in a blind rage. He finally decides to quit drinking after a drunk driving accident in which he and a friend run over an abandoned bicycle in the road and realize they could've killed a child. He accepts a position maintaining the isolated Overlook Hotel in Colorado for the winter, hoping this will salvage his family, re-establish his career, and give him the time and privacy to finish a promising play.</p>
       </div>
     </div>
 
@@ -144,7 +143,7 @@
   <div class="container mt-5 ">
     <div class="row">
       <div class="col-md-4">
-        <h1>Campaign Progress</h1>
+        <h1 id="give">Campaign Progress</h1>
       </div>
       <div class="col-md-8">
       </div>
@@ -204,7 +203,7 @@
   <div class="container">
     <form>
       <div class="form-group">
-        <h1>Stay informed</h1>
+        <h1 id="news">Stay informed</h1>
         <h6>Get the <em>Torrance Today</em> Newsletter in your inbox!</h6>
         <br>
         <label for="exampleInputName">Name</label>
