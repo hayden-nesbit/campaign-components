@@ -26,9 +26,6 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Meet Jack</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#">Campaign Resources</a>
         </li>
         <li class="nav-item dropdown">
@@ -51,10 +48,11 @@
   <main role="main">
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron text-white rounded-0" style="background-image: url('https://media.giphy.com/media/fBGy9GPvF3QwCPQt9f/giphy.gif'); background-size: cover; background-repeat: repeat;">
+    <div class="jumbotron text-white rounded-0"
+      style="background-image: url('https://media.giphy.com/media/fBGy9GPvF3QwCPQt9f/giphy.gif'); background-size: cover;">
       <div class="container">
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-8 pt-4">
             <h1 class="display-4">Jack Torrance</h1>
             <h3>for Constable</h3>
             <p class="topText h4 p-2">
@@ -63,11 +61,12 @@
               <i class="fa fa-check" style="font-size: 20px"></i> Creative Writer <br>
               <i class="fa fa-check" style="font-size: 20px"></i> Your next Constable!
             </p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Find where to vote! &raquo;</a></p>
+            <p><a class="btn btn-danger btn-lg mt-3" href="#" role="button">Find where to vote! &raquo;</a></p>
           </div>
           <div class="col-md-4">
-            <div class="alert alert-danger alert-dismissible fade show" role="alert">
-              <strong>Election Day is May 19th.</strong><br>Register to vote <a href="https://vrsws.sos.ky.gov/ovrweb/" class="alert-link">here</a>
+            <div class="alert alert-warning alert-dismissible fade show mt-5" role="alert">
+              <strong>Election Day is May 19th.</strong><br>Register to vote <a href="https://vrsws.sos.ky.gov/ovrweb/"
+                class="alert-link">here</a>
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -80,27 +79,59 @@
 
 
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 d-flex flex-column align-items-center">
-          <h2>On the Issues</h2>
-          <i class="fas fa-comments p-4 display-4"></i>
-          <p><a class="btn btn-secondary" href="#" role="button">Where he Stands &raquo;</a></p>
-        </div>
-        <div class="col-md-4 d-flex flex-column align-items-center">
-          <h2>Fundraising</h2>
-          <i class="fas fa-hand-holding-usd p-4 display-4"></i>
-          <p><a class="btn btn-secondary" href="#" role="button">Donate Today! &raquo;</a></p>
-        </div>
-        <div class="col-md-4 d-flex flex-column align-items-center">
-          <h2>Trail Schedule</h2>
-          <i class="far fa-calendar-alt p-4 display-4"></i>
-          <p><a class="btn btn-secondary" href="#" role="button">Join us Live! &raquo;</a></p>
+      <p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 d-flex flex-column align-items-center">
+              <h2>On the Issues</h2>
+              <i class="fas fa-comments p-4 display-4"></i>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse1"
+                aria-expanded="false" aria-controls="collapse1">
+                Where he stands &raquo;<br>
+              </button>
+      </p>
+      <div class="collapse" id="collapse1">
+        <div class="card card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
+          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
         </div>
       </div>
+    </div>
+    <div class="col-md-4 d-flex flex-column align-items-center">
+      <h2>Fundraising</h2>
+      <i class="fas fa-hand-holding-usd p-4 display-4"></i>
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse2"
+        aria-expanded="false" aria-controls="collapse2">
+        By the numbers &raquo;<br>
+      </button>
+      </p>
+      <div class="collapse" id="collapse2">
+        <div class="card card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
+          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex flex-column align-items-center">
+      <h2>Trail Schedule</h2>
+      <i class="far fa-calendar-alt p-4 display-4"></i>
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse3"
+        aria-expanded="false" aria-controls="collapse3">
+        Join the fun! &raquo;<br>
+      </button>
+      </p>
+      <div class="collapse" id="collapse3">
+        <div class="card card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
+          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+      </div>
+    </div>
+    </div>
 
-      <hr>
+    <hr>
 
-    </div> <!-- /container -->
+     <!-- /container -->
 
   </main>
 
