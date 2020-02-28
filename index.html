@@ -1,26 +1,28 @@
 <!doctype html>
 <html lang="en">
 
+<!-- HEAD contains tab title, bootstrap stylesheet, font awesome stylesheet -->
 <head>
   <title>Jack Torrance Campaign</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="./CSS/jumbotron.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 
+<!-- NAVBAR  -->
 <body>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <a class="navbar-brand display-4" href="#"><span class="text-danger"><b>Jack Torrance</b></span> for Constable</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars"
+      aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <!-- nav with collapsing dropdown, anchor tags, and search -->
+    <div class="collapse navbar-collapse" id="navbars">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -32,7 +34,7 @@
           <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">Get Involved</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#give">Give today</a>
+            <a class="dropdown-item" href="#give">Give today</a>  
             <a class="dropdown-item" href="#news">Join the Newsletter</a>
           </div>
         </li>
@@ -46,7 +48,7 @@
 
   <main role="main">
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- JUMBOTRON with background gif, row/columns, and punchout -->
     <div class="jumbotron text-white rounded-0"
       style="background-image: url('https://media.giphy.com/media/fBGy9GPvF3QwCPQt9f/giphy.gif'); background-size: cover;">
       <div class="container">
@@ -72,7 +74,7 @@
     </div>
 
 
-
+    <!-- CONTAINER with row/columns, collapse text boxes, and icons -->
     <div class="container">
       <p>
         <div class="container">
@@ -126,7 +128,7 @@
     <hr>
 
 
-    <!-- /container -->
+    <!-- CONTAINER with row/column and video -->
   <div class="container bg-light p-3">
     <div class="row">
       <div class="col-md-6 col-sm-12">
@@ -140,6 +142,7 @@
 
   </main>
 
+  <!-- CONTAINER with row/column and progress -->
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-4">
@@ -160,6 +163,8 @@
       </div>
     </div>
   </div>
+
+  <!-- CAROUSEL with row/column split pictures and text  -->
 
   <div class="container mt-5 bg-dark p-0">
     <div class="row">
@@ -221,6 +226,7 @@
   </div>
   
 
+  <!-- FORM -->
   <div class="container">
     <form>
       <div class="form-group">
@@ -245,13 +251,12 @@
 
   <br>
 
-
+  <!-- FOOTER  -->
   <footer class="container text-center">
     <p>&copy; Torrance & Tony Campaign Logistics, Inc. <br>
       2020
     </p>
   </footer>
-
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
