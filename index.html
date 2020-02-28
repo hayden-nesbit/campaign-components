@@ -154,11 +154,11 @@
     </div>
     <div class="row">
       <div class="col-md-4">
-        <button type="button" class="btn btn-success mt-3">Give $25 now</button>
+        <button onclick="giveMoney()" type="button" class="btn btn-success mt-3">Give $25 now</button>
       </div>
       <div class="col-md-8">
         <div class="progress mt-4">
-          <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25"
+          <div id="donate" class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25"
             aria-valuemin="0" aria-valuemax="100">$25</div>
         </div>
       </div>
@@ -268,6 +268,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script src="JS/main.js"></script>
 </body>
 
 </html>
